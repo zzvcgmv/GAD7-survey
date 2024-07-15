@@ -1,1 +1,0 @@
-# GAD7-survey
