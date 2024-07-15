@@ -1,0 +1,817 @@
+{
+  "_id": "5b3e0f2baaeba006c3251abb",
+  "type": "精神健康",
+  "result_page_title": "焦虑症评估",
+  "info": "焦虑症评估（临床医生推荐）",
+  "share_title": "焦虑症评估（临床医生推荐）",
+  "survey_page_title": "焦虑症评估",
+  "share_descr": "你有广泛焦虑障碍吗？你常常是面肌扭曲、眉头紧锁、姿势紧张，并且坐立不安吗？",
+  "introduction": {
+    "is_show": true,
+    "requirement": "根据“过去两周”的情况作答，请看清楚问题后选择与您情况最接近的选项",
+    "skip_first": true,
+    "time": "约2分钟",
+    "content": "广泛焦虑症是一种焦虑障碍，其特点是过度的、无法控制的、常常非理性的产生焦虑感。建议有症状者每两周回来重测评估一次，当症状持续几个月后才可以诊断为广泛焦虑症（如DSM-Ⅳ规定为6个月）。",
+    "begin_text": "开始评估",
+    "basis": "广泛性焦虑量表-7是基于美国精神障碍诊断标准编制而成，是一种简便有效的广泛性焦虑症识别及评估工具，在国外已被广泛应用于临床实践。"
+  },
+  "categories": [
+    {
+      "name": "健康值",
+      "description": ""
+    }
+  ],
+  "questions": [
+    {
+      "qid": "10",
+      "option_list": [
+        {
+          "next_qid": 21,
+          "description": "点击这里开始"
+        }
+      ],
+      "Q_Type": "Note",
+      "body": "广泛性焦虑量表-7(简称GAD-7)是基于美国精神障碍诊断标准编制而成，是一种简便有效的广泛性焦虑症识别及评估工具，在国外已被广泛应用于临床实践。<BR><BR>根据过去两周的情况，请您回答是否存在下列描述的状况及频率，请看清楚问题后选择与您情况最接近的选项。"
+    },
+    {
+      "qid": "21",
+      "option_list": [
+        {
+          "next_qid": 30,
+          "input_type": "scroller",
+          "description": "YYYYMM,now-80Y,now-14Y,MM1,now-30Y"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "年龄是健康建议的重要参考，请问你的出生年月是？"
+    },
+    {
+      "qid": "30",
+      "option_list": [
+        {
+          "next_qid": 33,
+          "description": "男"
+        },
+        {
+          "next_qid": 33,
+          "description": "女"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "您的性别？"
+    },
+    {
+      "qid": "33",
+      "option_list": [
+        {
+          "next_qid": 32,
+          "description": "小学"
+        },
+        {
+          "next_qid": 32,
+          "description": "中学"
+        },
+        {
+          "next_qid": 32,
+          "description": "高中及同等学历"
+        },
+        {
+          "next_qid": 32,
+          "description": "大学专科"
+        },
+        {
+          "next_qid": 32,
+          "description": "大学本科"
+        },
+        {
+          "next_qid": 32,
+          "description": "硕士研究生"
+        },
+        {
+          "next_qid": 32,
+          "description": "博士研究生"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "有研究表明，学历与焦虑程度存在一定关系；请问你的最高学历是？"
+    },
+    {
+      "qid": "32",
+      "option_list": [
+        {
+          "next_qid": 35,
+          "description": "未婚"
+        },
+        {
+          "next_qid": 35,
+          "description": "同居"
+        },
+        {
+          "next_qid": 35,
+          "description": "已婚"
+        },
+        {
+          "next_qid": 35,
+          "description": "离婚"
+        },
+        {
+          "next_qid": 35,
+          "description": "丧偶"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "你的婚姻状况如何？"
+    },
+    {
+      "qid": "35",
+      "option_list": [
+        {
+          "next_qid": 36,
+          "description": "互联网从业人员",
+          "choice_desc": "互联网从业人员"
+        },
+        {
+          "next_qid": 36,
+          "description": "金融从业人员",
+          "choice_desc": "金融从业人员"
+        },
+        {
+          "next_qid": 36,
+          "description": "医护人员",
+          "choice_desc": "医护人员"
+        },
+        {
+          "next_qid": 36,
+          "description": "媒体人",
+          "choice_desc": "媒体人"
+        },
+        {
+          "next_qid": 36,
+          "description": "公务员",
+          "choice_desc": "公务员"
+        },
+        {
+          "next_qid": 36,
+          "description": "教师",
+          "choice_desc": "教师"
+        },
+        {
+          "next_qid": 36,
+          "description": "广告/公关人",
+          "choice_desc": "广告/公关人"
+        },
+        {
+          "next_qid": 36,
+          "description": "家庭主妇",
+          "choice_desc": "家庭主妇"
+        },
+        {
+          "next_qid": 36,
+          "description": "企业主",
+          "choice_desc": "企业主"
+        },
+        {
+          "next_qid": 36,
+          "description": "服务、零售行业",
+          "choice_desc": "服务、零售行业"
+        },
+        {
+          "next_qid": 36,
+          "description": "工人",
+          "choice_desc": "工人"
+        },
+        {
+          "next_qid": 36,
+          "description": "农民",
+          "choice_desc": "农民"
+        },
+        {
+          "next_qid": 36,
+          "description": "学生",
+          "choice_desc": "学生"
+        },
+        {
+          "next_qid": 36,
+          "input_type": "text",
+          "description": "在此补充其他职业类型",
+          "choice_desc": "其它"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "不少行业压力较大，是焦虑困扰的高发人群，请问你的职业是？        "
+    },
+    {
+      "qid": "36",
+      "option_list": [
+        {
+          "next_qid": 40,
+          "description": "0~4万",
+          "choice_desc": "年收入0~4万"
+        },
+        {
+          "next_qid": 40,
+          "description": "5~10万",
+          "choice_desc": "年收入5~10万"
+        },
+        {
+          "next_qid": 40,
+          "description": "11~20万",
+          "choice_desc": "年收入11~20万"
+        },
+        {
+          "next_qid": 40,
+          "description": "21~40万",
+          "choice_desc": "年收入21~40万"
+        },
+        {
+          "next_qid": 40,
+          "description": "41~80万",
+          "choice_desc": "年收入41~80万"
+        },
+        {
+          "next_qid": 40,
+          "description": "超过80万",
+          "choice_desc": "年收入超过80万"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "你的个人年收入状况？        "
+    },
+    {
+      "qid": "40",
+      "option_list": [
+        {
+          "next_qid": 50,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 50,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 50,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 50,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "在过去两周里，感觉紧张，焦虑或急切？"
+    },
+    {
+      "qid": "50",
+      "option_list": [
+        {
+          "next_qid": 60,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 60,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 60,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 60,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "在过去两周里，有不能够停止或控制担忧？"
+    },
+    {
+      "qid": "60",
+      "option_list": [
+        {
+          "next_qid": 70,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 70,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 70,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 70,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "对各种各样的事情担忧过多"
+    },
+    {
+      "qid": "70",
+      "option_list": [
+        {
+          "next_qid": 80,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 80,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 80,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 80,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "很难放松下来"
+    },
+    {
+      "qid": "80",
+      "option_list": [
+        {
+          "next_qid": 90,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 90,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 90,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 90,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "由于不安而无法静坐"
+    },
+    {
+      "qid": "90",
+      "option_list": [
+        {
+          "next_qid": 100,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 100,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 100,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 100,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "变得容易烦躁或急躁"
+    },
+    {
+      "qid": "100",
+      "option_list": [
+        {
+          "next_qid": 500,
+          "description": "完全不会"
+        },
+        {
+          "next_qid": 500,
+          "description": "好几天"
+        },
+        {
+          "next_qid": 500,
+          "description": "超过一周"
+        },
+        {
+          "next_qid": 500,
+          "description": "几乎每天"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "在过去两周里，感到似乎将有可怕的事情发生而害怕？"
+    },
+    {
+      "qid": "500",
+      "option_list": [
+        {
+          "next_qid": 510,
+          "description": "大哭一场"
+        },
+        {
+          "next_qid": 510,
+          "description": "大声呐喊"
+        },
+        {
+          "next_qid": 510,
+          "description": "对亲人发泄情绪"
+        },
+        {
+          "next_qid": 510,
+          "description": "摔东西"
+        },
+        {
+          "next_qid": 510,
+          "description": "伤害自己（头、手及其他身体部位）"
+        },
+        {
+          "next_qid": 510,
+          "description": "唱歌"
+        },
+        {
+          "next_qid": 510,
+          "description": "喝酒"
+        },
+        {
+          "next_qid": 510,
+          "description": "剧烈运动"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "你有尝试过以下方式释放压力吗？（多选）"
+    },
+    {
+      "qid": "510",
+      "option_list": [
+        {
+          "next_qid": 520,
+          "description": "阅读"
+        },
+        {
+          "next_qid": 520,
+          "description": "学习"
+        },
+        {
+          "next_qid": 520,
+          "description": "做家务"
+        },
+        {
+          "next_qid": 520,
+          "description": "努力工作"
+        },
+        {
+          "next_qid": 520,
+          "description": "画画或者写字"
+        },
+        {
+          "next_qid": 520,
+          "description": "换一个工作环境或生活环境"
+        },
+        {
+          "next_qid": 520,
+          "description": "打游戏"
+        },
+        {
+          "next_qid": 520,
+          "description": "旅行"
+        },
+        {
+          "next_qid": 520,
+          "description": "找朋友约会"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "为了改善心情，你会做下列哪些事情转移注意力？（多选）"
+    },
+    {
+      "qid": "520",
+      "option_list": [
+        {
+          "next_qid": 530,
+          "description": "冥想"
+        },
+        {
+          "next_qid": 530,
+          "description": "写日记"
+        },
+        {
+          "next_qid": 530,
+          "description": "自己去运动"
+        },
+        {
+          "next_qid": 530,
+          "description": "罗列问题清单及分析解决方法"
+        },
+        {
+          "next_qid": 530,
+          "description": "看喜欢的电视剧或电影"
+        },
+        {
+          "next_qid": 530,
+          "description": "听改善情绪的音乐"
+        },
+        {
+          "next_qid": 530,
+          "description": "做费体力的家务活动"
+        },
+        {
+          "next_qid": 530,
+          "description": "画出/记录自己的内心感受"
+        },
+        {
+          "next_qid": 530,
+          "description": "寻找改善情绪的香味"
+        },
+        {
+          "next_qid": 530,
+          "description": "吃美味的食物"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "对于不开心的事情，你会选择自己去面对吗？如果有，你的方式是？（多选）"
+    },
+    {
+      "qid": "530",
+      "option_list": [
+        {
+          "next_qid": 540,
+          "description": "找亲人好友聊天"
+        },
+        {
+          "next_qid": 540,
+          "description": "参加聚会"
+        },
+        {
+          "next_qid": 540,
+          "description": "寻求专业医师/人士帮助"
+        },
+        {
+          "next_qid": 540,
+          "description": "参与或皈依某种信仰"
+        },
+        {
+          "next_qid": 540,
+          "description": "与他人一起去运动"
+        },
+        {
+          "next_qid": 540,
+          "description": "找陌生人聊天"
+        },
+        {
+          "next_qid": 540,
+          "description": "参加有利于心理健康的讲座或活动"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "面对情绪或痛苦，你尝试过向其他人寻求帮助吗？如果有，你的方式是？（多选）"
+    },
+    {
+      "qid": "540",
+      "option_list": [
+        {
+          "next_qid": 550,
+          "description": "按摩"
+        },
+        {
+          "next_qid": 550,
+          "description": "洗热水澡"
+        },
+        {
+          "next_qid": 550,
+          "description": "好好睡一觉"
+        },
+        {
+          "next_qid": 550,
+          "description": "购物"
+        },
+        {
+          "next_qid": 550,
+          "description": "享受食物（吃甜食、大吃一顿、下厨等）"
+        },
+        {
+          "next_qid": 550,
+          "description": "性生活或自慰"
+        },
+        {
+          "next_qid": 550,
+          "input_type": "text",
+          "description": "点此补充你的其他方法"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "你还会采取什么方法改善或放松心情？（多选）"
+    },
+    {
+      "qid": "550",
+      "option_list": [
+        {
+          "next_qid": 560,
+          "description": "会"
+        },
+        {
+          "next_qid": 570,
+          "description": "不会"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "当你陷入烦恼时，你会采用运动来改善情绪吗？"
+    },
+    {
+      "qid": "560",
+      "option_list": [
+        {
+          "next_qid": 570,
+          "description": "瑜伽"
+        },
+        {
+          "next_qid": 570,
+          "description": "走路、散步"
+        },
+        {
+          "next_qid": 570,
+          "description": "爬山"
+        },
+        {
+          "next_qid": 570,
+          "description": "骑行"
+        },
+        {
+          "next_qid": 570,
+          "description": "游泳"
+        },
+        {
+          "next_qid": 570,
+          "description": "健身"
+        },
+        {
+          "next_qid": 570,
+          "description": "跑步"
+        },
+        {
+          "next_qid": 570,
+          "description": "打球"
+        },
+        {
+          "next_qid": 570,
+          "description": "其他运动"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "哪项（哪些）运动是你经常采用的？（多选）"
+    },
+    {
+      "qid": "570",
+      "option_list": [
+        {
+          "next_qid": 580,
+          "description": "有"
+        },
+        {
+          "next_qid": 120,
+          "description": "没有"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "你是否采用过药物治疗来改善过你的情绪？"
+    },
+    {
+      "qid": "580",
+      "option_list": [
+        {
+          "next_qid": 120,
+          "description": "盐酸舍曲林（左洛复、快五优等）"
+        },
+        {
+          "next_qid": 120,
+          "description": "草酸艾司西酞普兰（来士普、百适可等 ）"
+        },
+        {
+          "next_qid": 120,
+          "description": "盐酸度洛西汀（欣百达、奥斯平等）"
+        },
+        {
+          "next_qid": 120,
+          "description": "盐酸帕罗西汀（赛乐特、舒坦罗、乐友）"
+        },
+        {
+          "next_qid": 120,
+          "description": "盐酸文拉法辛（怡诺思、博乐欣）"
+        },
+        {
+          "next_qid": 120,
+          "description": "氟哌噻吨美利曲辛（黛力新）"
+        },
+        {
+          "next_qid": 120,
+          "description": "圣约翰草提取物（路优泰）"
+        },
+        {
+          "next_qid": 120,
+          "description": "盐酸氟西汀（百忧解、优克等）"
+        },
+        {
+          "next_qid": 120,
+          "description": "盐酸米氮平（瑞美隆、派迪生等）"
+        },
+        {
+          "next_qid": 120,
+          "description": "盐酸曲唑酮（美时玉、舒绪等）"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "如果你使用西药改善情绪，以下哪些药物是你曾经使用过的？"
+    },
+    {
+      "qid": "120",
+      "option_list": [
+        {
+          "next_qid": 130,
+          "input_type": "text",
+          "description": "点击填写你尝试的其他方法"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "如你尝试其他有效方法，可分享在这里，以帮助更多遇到同样困扰的小伙伴"
+    },
+    {
+      "qid": "130",
+      "option_list": [
+        {
+          "description": "症状减轻/消失",
+          "choice_desc": "症状减轻/消失"
+        },
+        {
+          "description": "没有什么变化",
+          "choice_desc": "没有什么变化"
+        },
+        {
+          "description": "症状恶化",
+          "choice_desc": "症状恶化"
+        },
+        {
+          "description": "我没有采用，不知道效果",
+          "choice_desc": "没有采用"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "采用这些方法之后，效果如何？"
+    },
+    {
+      "qid": "20",
+      "option_list": [
+        {
+          "next_qid": "na",
+          "description": "50后或更早"
+        },
+        {
+          "next_qid": "na",
+          "description": "60后"
+        },
+        {
+          "next_qid": "na",
+          "description": "70后"
+        },
+        {
+          "next_qid": "na",
+          "description": "80后"
+        },
+        {
+          "next_qid": "na",
+          "description": "90后"
+        }
+      ],
+      "allow_multi_choice": false,
+      "body": "请问您的出生年代？"
+    },
+    {
+      "qid": "110",
+      "option_list": [
+        {
+          "next_qid": "na",
+          "description": "食疗（吃有助于心情或睡眠的食物）"
+        },
+        {
+          "next_qid": "na",
+          "description": "补充维生素"
+        },
+        {
+          "next_qid": "na",
+          "description": "不把身体的症状放在心里"
+        },
+        {
+          "next_qid": "na",
+          "description": "调整呼吸"
+        },
+        {
+          "next_qid": "na",
+          "description": "自我心理暗示"
+        },
+        {
+          "next_qid": "na",
+          "description": "寻求专业医师/人士帮助"
+        }
+      ],
+      "allow_multi_choice": true,
+      "body": "您采用过哪些方法调节？（多选）"
+    }
+  ],
+  "name": "焦虑（GAD-7） -Thu Jul 05 2018 20:29:31 GMT+0800 (CST)",
+  "user_name": "momo"
+}
